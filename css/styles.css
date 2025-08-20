@@ -961,6 +961,9 @@ img {
     row-gap: 72px;
     column-gap: 24px;
   }
+  .portfolio-list-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
   .basement {
     padding-left: 108px;
     padding-right: 164px;
