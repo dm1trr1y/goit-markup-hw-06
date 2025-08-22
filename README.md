@@ -1,2 +1,2 @@
-# goit-markup-hw-05
-Homework 5. Modal and Form
+# goit-markup-hw-06
+Homework 6. Responsibility
