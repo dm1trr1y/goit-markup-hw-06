@@ -1025,6 +1025,17 @@ img {
     flex-direction: row;
     gap: 40px;
   }
+
+  .basement .container {
+    padding: 0;
+    gap: 0;
+  }
+  .logo-copy {
+    margin-right: 120px;
+  }
+  .basement-social {
+    margin-right: 80px;
+  }
   .contacts-list-item-link {
     padding: 24px 0px;
   }
@@ -1058,16 +1069,6 @@ img {
   .team,
   .portfolio {
     padding: 120px 0px;
-  }
-  .basement .container {
-    padding: 0;
-    gap: 0;
-  }
-  .logo-copy {
-    margin-right: 120px;
-  }
-  .basement-social {
-    margin-right: 80px;
   }
 }
 
