@@ -57,71 +57,73 @@
           </svg>
         </button>
       </div>
-      <div class="mobile-menu">
-        <button type="button" class="mobile-close-button">
-          <svg class="mobile-close-icon" width="8" height="8">
-            <use href="./images/icons.svg#icon-close" />
-          </svg>
-        </button>
-        <nav class="mobile-navigation">
-          <ul class="mobile-menu-list">
-            <li>
-              <a
-                href="./index.html"
-                class="mobile-menu-list-link active-element"
-                >Studio</a
-              >
+      <div class="mobile-menu is-open">
+        <div class="container mobile-menu-container">
+          <button type="button" class="mobile-close-button">
+            <svg class="mobile-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close" />
+            </svg>
+          </button>
+          <nav class="mobile-navigation">
+            <ul class="mobile-menu-list">
+              <li>
+                <a
+                  href="./index.html"
+                  class="mobile-menu-list-link active-element"
+                  >Studio</a
+                >
+              </li>
+              <li><a href="#" class="mobile-menu-list-link">Portfolio</a></li>
+              <li><a href="#" class="mobile-menu-list-link">Contacts</a></li>
+            </ul>
+          </nav>
+          <address class="mobile-contacts">
+            <ul class="mobile-contacts-list">
+              <li class="mobile-contacts-list-item">
+                <a href="tel:+110001111111" class="contacts-list-item-link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mobile-contacts-list-item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="contacts-list-item-link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="social-list">
+            <li class="social-list-item">
+              <a class="social-list-item-link" href="#">
+                <svg class="social-list-item-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
             </li>
-            <li><a href="#" class="mobile-menu-list-link">Portfolio</a></li>
-            <li><a href="#" class="mobile-menu-list-link">Contacts</a></li>
+            <li class="social-list-item">
+              <a class="social-list-item-link" href="#">
+                <svg class="social-list-item-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a class="social-list-item-link" href="#">
+                <svg class="social-list-item-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a class="social-list-item-link" href="#">
+                <svg class="social-list-item-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
-        </nav>
-        <address class="mobile-contacts">
-          <ul class="mobile-contacts-list">
-            <li class="mobile-contacts-list-item">
-              <a
-                href="mailto:info@devstudio.com"
-                class="contacts-list-item-link"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="mobile-contacts-list-item">
-              <a href="tel:+110001111111" class="contacts-list-item-link"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
-        <ul class="social-list">
-          <li class="social-list-item">
-            <a class="social-list-item-link" href="#">
-              <svg class="social-list-item-icon" width="16" height="16">
-                <use href="./images/icons.svg#icon-instagram-2"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-list-item">
-            <a class="social-list-item-link" href="#">
-              <svg class="social-list-item-icon" width="16" height="16">
-                <use href="./images/icons.svg#icon-twitter-1"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-list-item">
-            <a class="social-list-item-link" href="#">
-              <svg class="social-list-item-icon" width="16" height="16">
-                <use href="./images/icons.svg#icon-facebook-1"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="social-list-item">
-            <a class="social-list-item-link" href="#">
-              <svg class="social-list-item-icon" width="16" height="16">
-                <use href="./images/icons.svg#icon-linkedin-1"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
     <!--Header ends-->
@@ -404,8 +406,8 @@
                   "
                   src="./images/portfolio/banking.jpg"
                   alt="Banking App"
-                  width="288"
-                  height="280"
+                  width="360"
+                  height="300"
                 />
 
                 <p class="portfolio-overlay">
@@ -430,8 +432,8 @@
                   "
                   src="./images/portfolio/payment.jpg"
                   alt="Cashless Payment"
-                  width="288"
-                  height="280"
+                  width="360"
+                  height="300"
                 />
 
                 <p class="portfolio-overlay">
@@ -456,8 +458,8 @@
                   "
                   src="./images/portfolio/meditation.jpg"
                   alt="Meditation App"
-                  width="288"
-                  height="280"
+                  width="360"
+                  height="300"
                 />
 
                 <p class="portfolio-overlay">
@@ -482,8 +484,8 @@
                   "
                   src="./images/portfolio/taxi.jpg"
                   alt="Taxi Service"
-                  width="288"
-                  height="280"
+                  width="360"
+                  height="300"
                 />
 
                 <p class="portfolio-overlay">
@@ -508,8 +510,8 @@
                   "
                   src="./images/portfolio/illustration.jpg"
                   alt="Screen Illustrations"
-                  width="288"
-                  height="280"
+                  width="360"
+                  height="300"
                 />
 
                 <p class="portfolio-overlay">
@@ -534,8 +536,8 @@
                   "
                   src="./images/portfolio/courses.jpg"
                   alt="Online Courses"
-                  width="288"
-                  height="280"
+                  width="360"
+                  height="300"
                 />
 
                 <p class="portfolio-overlay">
